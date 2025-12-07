@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pokémon Red Review - Graphics</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #ccddff;
+      color: #000080;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 12px 20px;
+      border-bottom: 4px double #000080;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 5px #666 inset;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-shadow: 1px 1px 0 #000080;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+    nav a {
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-left: 15px;
+      text-decoration: underline;
+      background-color: #000080;
+      padding: 3px 6px;
+      border: 2px outset #fff;
+      box-shadow: 1px 1px 0px #ccc;
+      cursor: pointer;
+      transition: none;
+    }
+    nav a:hover,
+    nav a:focus {
+      background-color: #3399ff;
+      color: #000080;
+      border: 2px inset #fff;
+      text-decoration: none;
+      outline: 3px dotted #3399ff;
+    }
+    main {
+      background-color: #fff;
+      border: 3px solid #000080;
+      width: 850px;
+      max-width: 95%;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 5px 5px 0 #ff0000;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 3px ridge #000080;
+      box-shadow: 4px 4px #cc0000;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #000080;
+      border-bottom: 3px dotted #ff0000;
+      padding-bottom: 6px;
+      margin-bottom: 14px;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 1.2rem;
+    }
+    footer {
+      background-color: #000080;
+      color: #cce6ff;
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 12px 0;
+      border-top: 4px double #ff0000;
+      box-shadow: 0 -2px 8px #cc0000 inset;
+      width: 850px;
+      max-width: 95%;
+      margin: 0 auto 40px;
+    }
+    @media (max-width: 900px) {
+      main, footer {
+        width: 95%;
+      }
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav a {
+        margin: 8px 10px 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Pokémon Red Review</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gameplay.html">Gameplay</a>
+    <a href="graphics.html" aria-current="page">Graphics</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Graphics and Visual Style</h2>
+  <img src="Titlescreen.png" alt="Pokémon Red game cover" />
+  <audio controls>
+  <source src="HallofFame.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+  <p>Pokémon Red's graphics are iconic for the 8-bit Game Boy era, with pixel art that has aged nostalgically well. The color palette and simple sprites contribute to its charm.</p>
+  
+  <p>Learn more about the Game Boy hardware <a href="https://en.wikipedia.org/wiki/Game_Boy" target="_blank" rel="noopener noreferrer">here</a>.</p>
+</main>
+
+<footer>
+  &copy; 2024 Pokémon Red Review Site | 
+  <a href="https://www.pokemon.com" target="_blank" rel="noopener noreferrer">Official Pokémon Site</a> | 
+  <a href="https://en.wikipedia.org/wiki/Pokémon_Red_and_Blue" target="_blank" rel="noopener noreferrer">Pokémon Red Wikipedia</a>
+</footer>
+</body>
+</html>
